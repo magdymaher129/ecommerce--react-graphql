@@ -1,0 +1,27 @@
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.authDev {
+    width: 50%;
+    padding: 40px;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    border-Radius: 20px;
+}
+
+@media (max-width: 900px) {
+    .authDev {
+        width: 90%;
+        padding: 40px;
+        border: 1px solid grey;
+        margin-bottom: 20px;
+        border-Radius: 20px;
+   
+    }
+
+}

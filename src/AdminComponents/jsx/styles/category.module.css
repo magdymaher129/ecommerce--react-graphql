@@ -1,0 +1,91 @@
+/* Category.module.css */
+
+
+/* Container Styles */
+.categoryContainer {
+    border: 2px solid grey;
+    margin: 150px auto; 
+    width: 60%;
+    min-width: 450px;
+    max-width: 700px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #1d2634;
+  }
+  
+  /* Title Styles */
+  .categoryTitle {
+    text-align: center;
+    margin-bottom: 20px;
+    /* Additional title styles can be added here */
+  }
+  
+  /* Input Styles */
+  .inputField {
+    display: block;
+    margin-bottom: 20px;
+    /* Additional input styles can be added here */
+  }
+  
+  /* Image Display Styles */
+  .imageContainer {
+    display: flex;
+    margin: 50px 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 2px;
+    /* Additional image container styles can be added here */
+  }
+  
+  .imageItem {
+    position: relative;
+
+    /* Additional image item styles can be added here */
+  }
+  
+  .imageDisplay {
+    border: 1px solid grey;
+    margin-left: 2px;
+
+    padding: 4px;
+    border-radius: 10px;
+    /* Additional image display styles can be added here */
+  }
+  
+  .deleteButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    border: none;
+    /* Additional delete button styles can be added here */
+  }
+  
+  /* Button Container Styles */
+  .buttonContainer {
+    display: flex;
+    justify-content:start;
+    gap: 10px;
+    /* Additional button container styles can be added here */
+  }
+  
+  /* Note Styles */
+  .noteContainer {
+    background-color: lightgreen;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    /* Additional note container styles can be added here */
+  }
+  
+  /* Warning Styles */
+  .warningContainer {
+    background-color: lightpink;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    /* Additional warning container styles can be added here */
+  }
+  

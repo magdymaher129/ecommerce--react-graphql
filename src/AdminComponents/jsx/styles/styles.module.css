@@ -1,0 +1,96 @@
+.brandUpdateContainer {
+    border: 2px solid grey;
+    margin: 50px auto;
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(202, 223, 249);
+  }
+  .disabled{
+    border:none;
+  margin-bottom: 5px;
+  height:32px;
+  padding-left:4px;
+  flex-grow: 1;
+  margin-left: 10px;
+  width:100%;
+  background-color: black;
+   color:#fff;
+  }
+  .productItem{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap:10px;
+    /* margin-top: 30px; */
+ 
+  }
+  
+  .brandUpdateTitle {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+.blockElement {
+  border:1px solid hsl(0, 0%, 0%);
+  margin-bottom: 5px;
+  height:32px;
+  padding-left:4px;
+  flex-grow: 1;
+  margin-left: 10px;
+  width:100%;
+  color:black
+  
+  /* margin-right: 10px; */
+}  
+
+.label{
+  color:black;
+  text-transform: capitalize;
+}
+.imageContainer {
+  display: flex;
+  margin: 50px 10px;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 2px;
+}
+
+.imageWrapper {
+  position: relative;
+}
+
+.image {
+  border: 1px solid grey;
+  /* margin-left: 10px; */
+  padding: 4px;
+  border-radius: 10px;
+}
+.controllers{
+
+  display:flex;
+width:100%;
+  justify-content: space-between;
+}
+.deleteButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  border: none;
+}
+/* Add a media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .brandUpdateContainer {
+    margin: 20px auto; /* Adjust margin for smaller screens */
+  }
+.controllers{
+flex-direction: column;
+gap: 10px;
+}
+  .productItem {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    margin-top: 20px; /* Adjust margin for smaller screens */
+  }
+}

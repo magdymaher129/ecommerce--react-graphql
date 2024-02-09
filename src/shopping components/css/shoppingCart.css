@@ -1,0 +1,86 @@
+.containers{
+   min-height:80vh;
+   padding: 20px;
+}
+
+.containers p{
+    text-align: center;
+    font-size: 38px !important;
+    margin-top: 100px;
+    text-transform: capitalize;
+    color:grey;
+    font-weight: bold;
+}
+#no-more-tables{
+    position: relative;
+    top:100px;
+    padding-bottom: 200px;
+
+
+}
+ #no-more-tables h2{
+ text-align: center;
+ text-transform: capitalize;
+ margin-bottom: 40px;
+}
+#no-more-tables
+ .shopping-image {
+     width: 50px;
+     height: 50px;
+ }
+ th{
+    border-radius: 0 !important;
+ }
+ #no-more-tables tr td{
+    font-weight: bold;
+    color: grey;
+    font-size: 20px;
+    text-transform: capitalize;
+ }
+.btn{
+    font-size: 18px;
+    font-weight: 700;
+ 
+ }
+ .remove{
+    width:160px ;
+ }
+ .table-dark{
+    text-transform: capitalize;
+ }
+ @media only screen and (max-width:1000px) {
+ 
+    #no-more-tables{
+
+        padding-bottom: 200px;
+        margin-bottom: 200px;
+    }
+    #no-more-tables tbody,
+    #no-more-tables tr,
+    #no-more-tables td {
+        display: block;
+    }
+
+    #no-more-tables thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    #no-more-tables td{
+       position:relative;
+       padding-left: 50%;
+       border:none;
+      
+    }
+    #no-more-tables td:before{
+        content:attr(data-title);
+        position:absolute;
+        left: 10px;
+        font-weight: bold;
+        text-transform: capitalize;
+        color:cadetblue
+    }
+    #no-more-tables tr{
+        border-bottom: 1px solid grey
+    }
+}
